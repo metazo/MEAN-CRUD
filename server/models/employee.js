@@ -6,3 +6,5 @@ var Employee = mongoose.model("Employee", {
   office: { type: String },
   salary: { type: Number },
 });
+
+module.exports = {Employee};
